@@ -1,0 +1,4 @@
+LIBRARY	"iisRequestDumper"
+
+EXPORTS
+    RegisterModule
