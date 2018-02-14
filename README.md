@@ -17,3 +17,4 @@ To remove again:
     del d:\iisRequestDumper.dll
     del /s /q "c:\tmp\iisRequestDumper" & rmdir /s /q "c:\tmp\iisRequestDumper"
 
+To disable without uninstalling, simply remove or rename the c:\tmp\iisRequestDumper directory.
