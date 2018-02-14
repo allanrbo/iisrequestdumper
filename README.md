@@ -12,6 +12,7 @@ To install:
     %systemroot%\system32\inetsrv\appcmd.exe install module /name:iisRequestDumper /image:d:\iisRequestDumper.dll
 
 To remove again:
+
     %systemroot%\system32\inetsrv\appcmd.exe uninstall module /module.name:iisRequestDumper
     del d:\iisRequestDumper.dll
     del /s /q "c:\tmp\iisRequestDumper" & rmdir /s /q "c:\tmp\iisRequestDumper"
