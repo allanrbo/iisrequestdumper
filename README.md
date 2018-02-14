@@ -11,7 +11,7 @@ To install:
     %systemroot%\system32\icacls "c:\tmp" /grant "everyone":(OI)(CI)F /t
     %systemroot%\system32\icacls "c:\tmp\iisRequestDumper" /grant "everyone":(OI)(CI)F /t
 
-    :: Copy manually iisRequestDumper.dll to d:\
+    :: Manually copy iisRequestDumper.dll to d:\
 
     %systemroot%\system32\inetsrv\appcmd.exe install module /name:iisRequestDumper /image:d:\iisRequestDumper.dll
 
