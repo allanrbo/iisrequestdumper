@@ -1,5 +1,7 @@
 # iisrequestdumper
-Plugin for IIS to dump requests and responses to files. Attempts to dump the requests as raw as possible, but beware that at the time the plugin gets called IIS or other plugins may have already altered the requests and ressponse.
+Plugin for IIS to dump requests and responses to files. This is useful when troubleshooting IIS issues.
+
+It attempts to dump as raw as possible, but beware that at the time the plugin gets called IIS or other plugins may have already altered the requests and ressponse.
 
 Download: https://github.com/allanrbo/iisrequestdumper/releases/download/1/iisRequestDumper.dll
 
